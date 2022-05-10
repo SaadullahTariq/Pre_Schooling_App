@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context=".QuizActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/quiz_card_abc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/alphabet_card"
+                    app:srcCompat="@drawable/home_alphabet"
+                    tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/quiz_card_urdu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/Urdu_Card"
+                    app:srcCompat="@drawable/home_urdu"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/quiz_card_fruits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_fruits"
+                    android:contentDescription="@string/fruits_card" />
+
+                <ImageView
+                    android:id="@+id/quiz_card_body_parts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_body_parts"
+                    android:contentDescription="@string/body_parts_card" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/quiz_card_shape"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_shape"
+                    android:contentDescription="@string/shape_card" />
+
+                <ImageView
+                    android:id="@+id/quiz_card_animal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/animals_card"
+                    app:srcCompat="@drawable/home_animal"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

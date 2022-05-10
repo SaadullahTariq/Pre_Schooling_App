@@ -19,8 +19,10 @@ public class LandingActivity extends AppCompatActivity {
         gameView = findViewById(R.id.gameView);
         videolearningView = findViewById(R.id.videolearningView);
 
-        leaningView.setOnClickListener(view -> {
-            startActivity(new Intent(LandingActivity.this, LearningActivity.class));
-        });
+        leaningView.setOnClickListener(view -> startActivity(new Intent(LandingActivity.this, LearningActivity.class)));
+
+        quizView.setOnClickListener(view -> startActivity(new Intent(LandingActivity.this, QuizActivity.class)));
+
+
     }
 }

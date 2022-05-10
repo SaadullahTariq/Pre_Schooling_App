@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.fyp_preschool"
-    tools:ignore="LockedOrientationActivity" >
+    tools:ignore="LockedOrientationActivity">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,12 @@
         android:label="@string/label"
         android:roundIcon="@drawable/ic_round_school_24"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fyp_Preschool" >
-
+        android:theme="@style/Theme.Fyp_Preschool">
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/Theme.statusBar"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.statusBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,10 +38,10 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".AlphabetsActivity"
-            android:theme="@style/Theme.statusBar"
             android:exported="false"
             android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.statusBar" />
         <activity
             android:name=".CountActivity"
             android:exported="false"
@@ -81,8 +80,43 @@
         <activity
             android:name=".UrduActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".LearningActivity"/>
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false"
+            android:parentActivityName=".LandingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizAlphabetsActivity"
+            android:exported="false"
+            android:parentActivityName=".QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizUrduActivity"
+            android:exported="false"
+            android:parentActivityName=".QuizActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuizShapesActivity"
+            android:exported="false"
+            android:parentActivityName=".QuizActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuizBodyPartsActivity"
+            android:exported="false"
+            android:parentActivityName=".QuizActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuizFruitActivity"
+            android:exported="false"
+            android:parentActivityName=".QuizActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuizAnimalsActivity"
+            android:exported="false"
+            android:parentActivityName=".QuizActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
