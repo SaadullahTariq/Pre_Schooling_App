@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fyp_preschool"
+    tools:ignore="LockedOrientationActivity" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:label="@string/label"
+        android:roundIcon="@drawable/ic_round_school_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fyp_Preschool" >
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.statusBar"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LandingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LearningActivity"
+            android:exported="false"
+            android:parentActivityName=".LandingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnimalsActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlphabetsActivity"
+            android:theme="@style/Theme.statusBar"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CountActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FruitActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MonthsActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DayActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BodyPartsActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShapesActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrayerActivity"
+            android:exported="false"
+            android:parentActivityName=".LearningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UrduActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".LearningActivity"/>
+    </application>
+
+</manifest>

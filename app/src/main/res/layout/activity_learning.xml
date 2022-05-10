@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context=".LearningActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/card_abc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/alphabet_card"
+                    app:srcCompat="@drawable/home_alphabet"
+                    tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/card_123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/number_card"
+                    app:srcCompat="@drawable/home_number"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/card_urdu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_urdu"
+                    android:contentDescription="@string/Urdu_Card"/>
+
+                <ImageView
+                    android:id="@+id/card_prayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/Urdu_Card"
+                    app:srcCompat="@drawable/home_prayer"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/card_animal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_animal"
+                    android:contentDescription="@string/animals_card" />
+
+                <ImageView
+                    android:id="@+id/card_fruit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_fruits"
+                    android:contentDescription="@string/fruits_card" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/card_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_month"
+                    android:contentDescription="@string/month_card" />
+
+                <ImageView
+                    android:id="@+id/card_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/day_card"
+                    app:srcCompat="@drawable/home_day"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/card_bodyPart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/body_parts_card"
+                    app:srcCompat="@drawable/home_body_parts"
+                    tools:ignore="ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/card_shapes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/shape_card"
+                    app:srcCompat="@drawable/home_shape"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

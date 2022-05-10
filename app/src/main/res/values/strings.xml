@@ -1,0 +1,67 @@
+<resources>
+    <string name="label">PreSchooling For Kids</string>
+    <string name="let_us_learn">Lets Start LEARNING!</string>
+    <string name="learning_section">Learning Section</string>
+    <string name="game_section">Game Section</string>
+    <string name="video_learning_section">Video Learning Section</string>
+    <string name="quiz_section">Quiz Section</string>
+    <string name="preschooling_for_kids">PreSchooling For Kids</string>
+    <string name="successful_intent">SuccessFUl INTENT!</string>
+    <string name="select">Select</string>
+    <string name="imageview">Imageview</string>
+    <string name="alphabet_card">Alphabet Card</string>
+    <string name="number_card">Number Card</string>
+    <string name="animals_card">Animals Card</string>
+    <string name="fruits_card">Fruits Card</string>
+    <string name="month_card">Month Card</string>
+    <string name="day_card">Day Card</string>
+    <string name="body_parts_card">Body Parts Card</string>
+    <string name="shape_card">Shape Card</string>
+    <string name="Count_Section">Counting</string>
+    <string name="splash_title">Welcome KIds!</string>
+    <string name="english_title">English Alphabets</string>
+    <string name="animal_title">Animals Name</string>
+    <string name="landing_title">Learning</string>
+    <string name="fruit_title">Fruit Names</string>
+    <string name="month_title">Month Names</string>
+    <string name="day_title">Day Names</string>
+    <string name="bodypart_title">Body Part Names</string>
+    <string name="shapes_title">Shape Names</string>
+    <string name="Urdu_Card">Urdu Card</string>
+    <string name="prayer_section">Prayer Section</string>
+    <string name="prayer_title">Prayers</string>
+    <string name="urdu_title">Urdu Alphabets</string>
+    <string name="previous_button">Previous Button</string>
+    <string name="play_button">Play Button</string>
+    <string name="next_button">Next Button</string>
+    <string name="recyclerview_image">Recyclerview Image</string>
+
+    <string-array name="words">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Elephant</item>
+        <item>Fish</item>
+        <item>Gate</item>
+        <item>House</item>
+        <item>Ink Pot</item>
+        <item>Jacket</item>
+        <item>Kite</item>
+        <item>Lemon</item>
+        <item>Monkey</item>
+        <item>Nose</item>
+        <item>Orange</item>
+        <item>Parrot</item>
+        <item>Queen</item>
+        <item>Rabbit</item>
+        <item>Sun</item>
+        <item>Train</item>
+        <item>Umbrella</item>
+        <item>Violin</item>
+        <item>Watch</item>
+        <item>Xylophone</item>
+        <item>Yak</item>
+        <item>Zebra</item>
+    </string-array>
+</resources>
