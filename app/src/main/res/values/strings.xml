@@ -35,6 +35,14 @@
     <string name="play_button">Play Button</string>
     <string name="next_button">Next Button</string>
     <string name="recyclerview_image">Recyclerview Image</string>
+    <string name="number_of_questions">Number of Questions</string>
+    <string name="question">Question</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="your_score_is">Your score is</string>
 
     <string-array name="words">
         <item>Apple</item>
