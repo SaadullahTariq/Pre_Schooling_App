@@ -6,11 +6,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_baseline_school_24"
+        android:icon="@drawable/icon"
         android:label="@string/label"
-        android:roundIcon="@drawable/ic_round_school_24"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fyp_Preschool">
+
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -42,6 +43,11 @@
             android:parentActivityName=".LearningActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.statusBar" />
+        <activity
+            android:name=".DrawingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".LandingActivity"/>
         <activity
             android:name=".CountActivity"
             android:exported="false"
@@ -96,27 +102,27 @@
             android:name=".QuizUrduActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".QuizShapesActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".QuizBodyPartsActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".QuizFruitActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".QuizAnimalsActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

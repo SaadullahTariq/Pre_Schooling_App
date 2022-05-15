@@ -37,6 +37,15 @@
                 app:srcCompat="@drawable/learning" />
 
             <ImageView
+                android:id="@+id/drawingView"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:contentDescription="@string/drawing_section"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:srcCompat="@drawable/drawing" />
+
+            <ImageView
                 android:id="@+id/videolearningView"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
