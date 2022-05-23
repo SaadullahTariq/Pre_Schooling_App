@@ -14,7 +14,6 @@ import java.util.TimerTask;
 
 public class SplashActivity extends AppCompatActivity {
     TextView textView;
-    ImageView imageview5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,17 +21,12 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         setTitle(getString(R.string.splash_title));
         textView = findViewById(R.id.textView);
-        imageview5 = findViewById(R.id.imageView5);
         Animation anim1 = AnimationUtils.loadAnimation(this, R.anim.zoom1);
-        Animation anim2 = AnimationUtils.loadAnimation(this, R.anim.zoom2);
 
         anim1.reset();
         textView.clearAnimation();
         textView.startAnimation(anim1);
 
-        anim2.reset();
-        imageview5.clearAnimation();
-        imageview5.startAnimation(anim2);
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -41,6 +35,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), LandingActivity.class));
                 finish();
             }
-        }, 3500);
+        }, 3700);
     }
 }
