@@ -58,7 +58,8 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_eraser"
                 android:layout_width="0dp"
-                android:layout_height="70dp"/>
+                android:layout_height="70dp"
+                android:contentDescription="@string/eraser_button" />
 
             <ImageButton
                 android:id="@+id/btnColor"
@@ -67,7 +68,8 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_color"
                 android:layout_width="0dp"
-                android:layout_height="70dp"/>
+                android:layout_height="70dp"
+                android:contentDescription="@string/color_button" />
 
             <ImageButton
                 android:id="@+id/btnSave"
@@ -76,7 +78,8 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_save"
                 android:layout_width="0dp"
-                android:layout_height="70dp"/>
+                android:layout_height="70dp"
+                android:contentDescription="@string/sava_button" />
 
 
         </LinearLayout>

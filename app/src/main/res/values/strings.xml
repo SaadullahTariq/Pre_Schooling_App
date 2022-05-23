@@ -44,6 +44,9 @@
     <string name="restart_quiz">Restart Quiz</string>
     <string name="your_score_is">Your score is</string>
     <string name="drawing_section">Drawing Section</string>
+    <string name="eraser_button">Eraser Button!</string>
+    <string name="color_button">Color Button!</string>
+    <string name="sava_button">Sava Button!</string>
 
     <string-array name="words">
         <item>Apple</item>
