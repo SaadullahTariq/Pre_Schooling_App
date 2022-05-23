@@ -4,7 +4,13 @@
     package="com.example.fyp_preschool"
     tools:ignore="LockedOrientationActivity">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
     <application
+        android:requestLegacyExternalStorage="true"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/label"
@@ -45,6 +51,7 @@
             android:theme="@style/Theme.statusBar" />
         <activity
             android:name=".DrawingActivity"
+            android:theme="@style/Theme.statusBar"
             android:exported="false"
             android:screenOrientation="portrait"
             android:parentActivityName=".LandingActivity"/>

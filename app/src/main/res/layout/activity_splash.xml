@@ -14,7 +14,7 @@
         android:layout_marginTop="148dp"
         android:fontFamily="@font/aclonica"
         android:text="@string/preschooling_for_kids"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
