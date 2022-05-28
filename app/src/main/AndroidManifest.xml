@@ -5,19 +5,19 @@
     tools:ignore="LockedOrientationActivity">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
     <application
-        android:requestLegacyExternalStorage="true"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/label"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fyp_Preschool">
-
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -39,6 +39,17 @@
             android:parentActivityName=".LandingActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:parentActivityName=".LandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.statusBar" />
+        <activity
+            android:name=".TicTacToe"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.statusBar"/>
+        <activity
             android:name=".AnimalsActivity"
             android:exported="false"
             android:parentActivityName=".LearningActivity"
@@ -51,10 +62,10 @@
             android:theme="@style/Theme.statusBar" />
         <activity
             android:name=".DrawingActivity"
-            android:theme="@style/Theme.statusBar"
             android:exported="false"
+            android:parentActivityName=".LandingActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".LandingActivity"/>
+            android:theme="@style/Theme.statusBar" />
         <activity
             android:name=".CountActivity"
             android:exported="false"

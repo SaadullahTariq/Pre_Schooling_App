@@ -48,6 +48,15 @@
     <string name="color_button">Color Button!</string>
     <string name="sava_button">Sava Button!</string>
 
+    <!--    Tic Tac Toe Strings-->
+    <string name="PlayerSetupTitle">Enter your Name</string>
+    <string name="Label1">Player 1</string>
+    <string name="Label2">Player 2</string>
+    <string name="submitButton">Start Game</string>
+    <string name="NameHint">Enter your Name</string>
+    <string name="play_again">Play Again</string>
+    <string name="home">Home</string>
+
     <string-array name="words">
         <item>Apple</item>
         <item>Banana</item>

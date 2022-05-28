@@ -20,13 +20,14 @@ public class LandingActivity extends AppCompatActivity {
         videolearningView = findViewById(R.id.videolearningView);
         drawingView = findViewById(R.id.drawingView);
 
+
         leaningView.setOnClickListener(view -> startActivity(new Intent(LandingActivity.this, LearningActivity.class)));
 
         quizView.setOnClickListener(view -> startActivity(new Intent(LandingActivity.this, QuizActivity.class)));
 
-        drawingView.setOnClickListener(view -> { startActivity(new Intent(LandingActivity.this, DrawingActivity.class));
+        drawingView.setOnClickListener(view -> startActivity(new Intent(LandingActivity.this, DrawingActivity.class)));
 
-        });
+        gameView.setOnClickListener(view -> startActivity(new Intent(LandingActivity.this, GameActivity.class)));
 
 
     }
