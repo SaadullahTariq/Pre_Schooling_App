@@ -20,8 +20,14 @@ public class GameActivity extends AppCompatActivity {
         player2 = findViewById(R.id.player2Name);
 
         submit_btn.setOnClickListener(view -> {
-            String player1Name = player1.getText().toString();
-            String player2Name = player2.getText().toString();
+            String player1Name = "Player1";
+            String player2Name = "Player2";
+            
+            if (player1.getText().toString().trim().length() != 0){
+                player1Name = player1.getText().toString();
+                player2Name = player2.getText().toString();
+            }
+
 
             Intent intent = new Intent(GameActivity.this, TicTacToe.class);
             intent.putExtra("PLAYER_NAME", new String[] {player1Name, player2Name});
