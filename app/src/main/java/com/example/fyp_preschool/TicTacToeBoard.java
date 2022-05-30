@@ -172,22 +172,24 @@ public class TicTacToeBoard extends View {
     }
 
     private void drawWinningLine(Canvas canvas){
-        int row = game.getWinType()[0];
-        int col = game.getWinType()[1];
+        if (game.check){
+            int row = game.getWinType()[0];
+            int col = game.getWinType()[1];
 
-        switch (game.getWinType()[2]){
-            case 1:
-                drawHorizontalLine(canvas, row, col);
-                break;
-            case 2:
-                drawVerticalLine(canvas, row, col);
-                break;
-            case 3:
-                drawDiagonalNeg(canvas);
-                break;
-            case 4:
-                drawDiagonalPos(canvas);
-                break;
+            switch (game.getWinType()[2]){
+                case 1:
+                    drawHorizontalLine(canvas, row, col);
+                    break;
+                case 2:
+                    drawVerticalLine(canvas, row, col);
+                    break;
+                case 3:
+                    drawDiagonalNeg(canvas);
+                    break;
+                case 4:
+                    drawDiagonalPos(canvas);
+                    break;
+            }
         }
     }
 

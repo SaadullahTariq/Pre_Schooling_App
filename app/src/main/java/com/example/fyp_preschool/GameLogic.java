@@ -11,6 +11,7 @@ public class GameLogic {
     private Button playAgainBTN;
     private Button homeBTN;
     private TextView playerTurn;
+    boolean check = true;
 
     private int player = 1;
 
@@ -80,12 +81,14 @@ public class GameLogic {
             playAgainBTN.setVisibility(View.VISIBLE);
             homeBTN.setVisibility(View.VISIBLE);
             playerTurn.setText((playerNames[player - 1] + " Won!"));
+            check = true;
             return true;
         }
         else if (boardFilled == 9){
             playAgainBTN.setVisibility(View.VISIBLE);
             homeBTN.setVisibility(View.VISIBLE);
             playerTurn.setText("Tie Game!");
+            check = false;
             return true;
         }
         else {
