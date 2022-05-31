@@ -22,11 +22,7 @@ public class QuizActivity extends AppCompatActivity {
         quiz_card_urdu = findViewById(R.id.quiz_card_urdu);
 
         quiz_card_abc.setOnClickListener(view -> startActivity(new Intent(QuizActivity.this, QuizAlphabetsActivity.class)));
-        quiz_card_animal.setOnClickListener(view -> startActivity(new Intent(QuizActivity.this, QuizAnimalsActivity.class)));
-        quiz_card_fruit.setOnClickListener(view -> startActivity(new Intent(QuizActivity.this, QuizFruitActivity.class)));
-        quiz_card_bodypart.setOnClickListener(view -> startActivity(new Intent(QuizActivity.this, QuizBodyPartsActivity.class)));
-        quiz_card_shapes.setOnClickListener(view -> startActivity(new Intent(QuizActivity.this, QuizShapesActivity.class)));
-        quiz_card_urdu.setOnClickListener(view -> startActivity(new Intent(QuizActivity.this, QuizUrduActivity.class)));
+
 
     }
 }

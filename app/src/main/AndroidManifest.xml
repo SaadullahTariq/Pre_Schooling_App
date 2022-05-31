@@ -25,7 +25,6 @@
             android:theme="@style/Theme.statusBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -45,67 +44,23 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.statusBar" />
         <activity
-            android:name=".TicTacToe"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.statusBar"/>
-        <activity
-            android:name=".AnimalsActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AlphabetsActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.statusBar" />
-        <activity
             android:name=".DrawingActivity"
             android:exported="false"
             android:parentActivityName=".LandingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.statusBar" />
         <activity
-            android:name=".CountActivity"
+            android:name=".TicTacToe"
             android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.statusBar"/>
         <activity
-            android:name=".FruitActivity"
+            android:name=".AlphabetsActivity"
             android:exported="false"
             android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MonthsActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".DayActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".BodyPartsActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ShapesActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".PrayerActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".UrduActivity"
-            android:exported="false"
-            android:parentActivityName=".LearningActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.statusBar" />
+
         <activity
             android:name=".QuizActivity"
             android:exported="false"
@@ -113,31 +68,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".QuizAlphabetsActivity"
-            android:exported="false"
-            android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".QuizUrduActivity"
-            android:exported="false"
-            android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".QuizShapesActivity"
-            android:exported="false"
-            android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".QuizBodyPartsActivity"
-            android:exported="false"
-            android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".QuizFruitActivity"
-            android:exported="false"
-            android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".QuizAnimalsActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
             android:screenOrientation="portrait" />
