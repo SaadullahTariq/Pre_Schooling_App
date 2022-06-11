@@ -4,6 +4,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
+
+import nl.dionsegijn.konfetti.core.PartyFactory;
+import nl.dionsegijn.konfetti.core.Position;
+import nl.dionsegijn.konfetti.core.emitter.Emitter;
+import nl.dionsegijn.konfetti.core.emitter.EmitterConfig;
+import nl.dionsegijn.konfetti.core.models.Shape;
+import nl.dionsegijn.konfetti.xml.KonfettiView;
+
 public class GameLogic {
     private int[][] gameBoard;
     private int[] winType = {-1, -1, -1};
@@ -11,6 +21,7 @@ public class GameLogic {
     private Button playAgainBTN;
     private Button homeBTN;
     private TextView playerTurn;
+    private KonfettiView konfettiView;
     boolean check = true;
 
     private int player = 1;
@@ -80,6 +91,19 @@ public class GameLogic {
         if (isWinner){
             playAgainBTN.setVisibility(View.VISIBLE);
             homeBTN.setVisibility(View.VISIBLE);
+
+            // Winning Celebration
+            EmitterConfig emitterConfig = new Emitter(2000L, TimeUnit.MILLISECONDS).perSecond(500);
+            konfettiView.start(
+                    new PartyFactory(emitterConfig)
+                            .spread(360)
+                            .shapes(Arrays.asList(Shape.Square.INSTANCE, Shape.Circle.INSTANCE))
+                            .colors(Arrays.asList(0xfce18a, 0xff726d, 0xf4306d, 0xb48def))
+                            .setSpeedBetween(0f, 30f)
+                            .position(new Position.Relative(0.5, 0.3))
+                            .build()
+            );
+
             playerTurn.setText((playerNames[player - 1] + " Won!"));
             check = true;
             return true;
@@ -140,5 +164,13 @@ public class GameLogic {
 
     public int[] getWinType() {
         return winType;
+    }
+
+    public void setKonfettiView(KonfettiView konfettiView) {
+        this.konfettiView = konfettiView;
+    }
+
+    public KonfettiView getKonfettiView() {
+        return konfettiView;
     }
 }
