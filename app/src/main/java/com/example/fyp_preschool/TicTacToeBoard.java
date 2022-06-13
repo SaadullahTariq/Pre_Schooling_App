@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+import nl.dionsegijn.konfetti.xml.KonfettiView;
+
+
 public class TicTacToeBoard extends View {
     private boolean winningLine = false;
 
@@ -193,11 +196,12 @@ public class TicTacToeBoard extends View {
         }
     }
 
-    public void setUpGame(Button playAgain, Button home, TextView playerDisplay, String[] name){
+    public void setUpGame(Button playAgain, Button home, TextView playerDisplay, String[] name, KonfettiView konfettiView){
         game.setPlayAgainBTN(playAgain);
         game.setHomeBTN(home);
         game.setPlayerTurn(playerDisplay);
         game.setPlayerNames(name);
+        game.setKonfettiView(konfettiView);
     }
 
     public void resetGame(){

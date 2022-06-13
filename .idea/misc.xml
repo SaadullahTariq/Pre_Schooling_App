@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/drawable/home_btn.xml" value="0.1635" />
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/drawable/ic_color.xml" value="0.1345" />
+        <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/drawable/ic_heart.xml" value="0.1" />
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/drawable/play_btn.xml" value="0.128" />
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/drawable/playagain_btn.xml" value="0.1635" />
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/drawable/ssssssssss.xml" value="0.1635" />
@@ -34,7 +35,7 @@
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/layout/choose_category_item.xml" value="0.1" />
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/layout/recycler_view_row.xml" value="0.33" />
         <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/layout/score_bottom_sheet.xml" value="0.33" />
-        <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/layout/tic_tac_toe.xml" value="0.22" />
+        <entry key="..\:/Android Projects/Fyp_Preschool/app/src/main/res/layout/tic_tac_toe.xml" value="0.134375" />
       </map>
     </option>
   </component>
