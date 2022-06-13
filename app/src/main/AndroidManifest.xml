@@ -22,7 +22,7 @@
             android:name=".SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.statusBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -59,7 +59,7 @@
             android:exported="false"
             android:parentActivityName=".LearningActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.statusBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
 
         <activity
             android:name=".QuizActivity"
@@ -70,7 +70,8 @@
             android:name=".QuizAlphabetsActivity"
             android:exported="false"
             android:parentActivityName=".QuizActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
 
         <meta-data
             android:name="preloaded_fonts"

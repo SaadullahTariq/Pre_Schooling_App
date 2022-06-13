@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.SnapHelper;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 
 
@@ -40,7 +42,10 @@ public class AlphabetsActivity extends AppCompatActivity {
         previous = findViewById(R.id.previous_btn);
         play = findViewById(R.id.play_btn);
         next = findViewById(R.id.next_btn);
-        setTitle(getString(R.string.english_title));
+
+
+
+
         setAlphabetItems();
 
         Alphabet_Recyclerview adapter = new Alphabet_Recyclerview(this, alphabetItems);

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_view"
+    android:background="@drawable/splash_bg_s"
     tools:context=".SplashActivity">
 
     <TextView
@@ -24,8 +24,12 @@
         android:id="@+id/animationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:lottie_rawRes="@raw/abc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
-        app:lottie_loop="true"/>
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/abc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
