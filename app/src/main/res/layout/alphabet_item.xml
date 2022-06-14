@@ -30,7 +30,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="70sp"
-                android:text="A a" />
+                android:text="@string/initial_Value" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
