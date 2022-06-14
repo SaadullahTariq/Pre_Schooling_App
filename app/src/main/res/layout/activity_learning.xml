@@ -87,12 +87,12 @@
                     android:contentDescription="@string/animals_card" />
 
                 <ImageView
-                    android:id="@+id/card_fruit"
+                    android:id="@+id/card_color"
                     android:layout_width="wrap_content"
                     android:layout_height="230dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/home_fruits"
-                    android:contentDescription="@string/fruits_card" />
+                    app:srcCompat="@drawable/home_color"
+                    android:contentDescription="@string/color_card" />
             </LinearLayout>
 
             <LinearLayout

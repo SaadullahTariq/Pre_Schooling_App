@@ -12,7 +12,7 @@
     <string name="alphabet_card">Alphabet Card</string>
     <string name="number_card">Number Card</string>
     <string name="animals_card">Animals Card</string>
-    <string name="fruits_card">Fruits Card</string>
+    <string name="color_card">Colors Card</string>
     <string name="month_card">Month Card</string>
     <string name="day_card">Day Card</string>
     <string name="body_parts_card">Body Parts Card</string>
@@ -56,33 +56,72 @@
     <string name="NameHint">Enter your Name</string>
     <string name="play_again">Play Again</string>
     <string name="home">Home</string>
+    <string name="initial_Value">A a</string>
 
     <string-array name="words">
-        <item>Apple</item>
-        <item>Banana</item>
-        <item>Cat</item>
-        <item>Dog</item>
-        <item>Elephant</item>
-        <item>Fish</item>
-        <item>Gate</item>
-        <item>House</item>
-        <item>Ink Pot</item>
-        <item>Jacket</item>
-        <item>Kite</item>
-        <item>Lemon</item>
-        <item>Monkey</item>
-        <item>Nose</item>
-        <item>Orange</item>
-        <item>Parrot</item>
-        <item>Queen</item>
-        <item>Rabbit</item>
-        <item>Sun</item>
-        <item>Train</item>
-        <item>Umbrella</item>
-        <item>Violin</item>
-        <item>Watch</item>
-        <item>Xylophone</item>
-        <item>Yak</item>
-        <item>Zebra</item>
+        <item>A for Apple</item>
+        <item>B for Banana</item>
+        <item>C for Cat</item>
+        <item>D for Dog</item>
+        <item>E for Elephant</item>
+        <item>F for Fish</item>
+        <item>G for Gate</item>
+        <item>H for House</item>
+        <item>I for InkPot</item>
+        <item>J for Jacket</item>
+        <item>K for Kite</item>
+        <item>L for Lemon</item>
+        <item>M for Monkey</item>
+        <item>N for Nose</item>
+        <item>O for Orange</item>
+        <item>P for Parrot</item>
+        <item>Q for Queen</item>
+        <item>R for Rabbit</item>
+        <item>S for Sun</item>
+        <item>T for Train</item>
+        <item>U for Umbrella</item>
+        <item>V for Violin</item>
+        <item>W for Watch</item>
+        <item>X for Xylophone</item>
+        <item>Y for Yak</item>
+        <item>Z for Zebra</item>
     </string-array>
+
+    <string-array name="count">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Eleven</item>
+        <item>Twelve</item>
+        <item>Thirteen</item>
+        <item>Fourteen</item>
+        <item>Fifteen</item>
+        <item>Sixteen</item>
+        <item>Seventeen</item>
+        <item>Eighteen</item>
+        <item>Nineteen</item>
+        <item>Twenty</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>Aqua</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Slate</item>
+        <item>Violet</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
 </resources>
